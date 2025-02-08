@@ -43,13 +43,6 @@ const Livestream = () => {
       ) : (
         <p>Loading livestream...</p>
       )}
-      <section id="Buttons">
-        <button>
-          <a href="./Reels.html">Reels</a>
-        </button>
-        <button>Streaming</button>
-        <button>WebChat</button>
-      </section>
     </div>
   );
 };
