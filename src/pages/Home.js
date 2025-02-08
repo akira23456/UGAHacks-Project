@@ -37,9 +37,7 @@ function Home() {
       </form>
 
       <section id="Buttons">
-        <button>
-          Reels
-        </button>
+        <button>Reels</button>
         <button>Streaming</button>
         <button>WebChat</button>
       </section>

@@ -29,6 +29,11 @@ function Shorts() {
           </div>
         ))
       )}
+      <section id="Buttons">
+        <button>Reels</button>
+        <button>Streaming</button>
+        <button>WebChat</button>
+      </section>
     </div>
   );
 }
