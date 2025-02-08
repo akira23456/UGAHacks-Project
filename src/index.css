@@ -7,6 +7,37 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body #Buttons {
+  border: 10px solid;
+  border-color: rgb(123, 174, 123);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+body #Splash {
+  border: 10px double;
+  border-color: rgb(123, 174, 123);
+  display: flex;
+  justify-content: space-evenly;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+body #ContentArea {
+  /*height: 550px; */
+}
+
+button {
+  width: 400px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-weight: 500;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
