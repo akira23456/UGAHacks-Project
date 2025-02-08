@@ -13,17 +13,6 @@ function Shorts() {
 
   return (
     <div>
-<<<<<<< HEAD
-      <h1>Short Video Content</h1>
-      <p>Coming soon: A place for short, vertical videos!</p>
-
-      <section id="Buttons">
-        <button>Reels</button>
-        <button>Streaming</button>
-        <button>WebChat</button>
-      </section>
-
-=======
       <h1>Shorts</h1>
       {videos.length === 0 ? (
         <p>Loading videos...</p>
@@ -40,7 +29,13 @@ function Shorts() {
           </div>
         ))
       )}
->>>>>>> e8fe298 (Outline for reels section using pinata)
+      
+      <section id="Buttons">
+        <button>Reels</button>
+        <button>Streaming</button>
+        <button>WebChat</button>
+      </section>
+
     </div>
   );
 }
