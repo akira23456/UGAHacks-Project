@@ -14,7 +14,12 @@ function Home() {
 
   return (
     <div>
-      <h1>Cultural Heritage</h1>
+      <section id="Splash"> 
+        <p>Performing Heritage</p>
+      </section>
+      <section id="ContentArea">
+      </section>
+
       <h2>Live Chat</h2>
       <div className="chat-box">
         {messages.map((msg, index) => (
@@ -30,6 +35,15 @@ function Home() {
         />
         <button type="submit">Send</button>
       </form>
+
+      <section id="Buttons">
+        <button>
+          Reels
+        </button>
+        <button>Streaming</button>
+        <button>WebChat</button>
+      </section>
+
     </div>
   );
 }
