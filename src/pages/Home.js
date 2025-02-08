@@ -14,9 +14,9 @@ function Home() {
 
   return (
     <div>
-      <h1>Cultural Heritage</h1>
       <section id="Splash"> 
         Performing Heritage
+        <img src="Src"></img>
       </section>
       <section id="ContentArea">
       </section>
