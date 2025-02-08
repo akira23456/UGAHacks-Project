@@ -15,11 +15,23 @@ h1, h2 {
   filter: drop-shadow(0px 10px 10px #000000);
 }
 
-body #Buttons {
-  border: 10px solid;
+nav ul {
+  border: 10px double;
   border-color: #1B6D43;
+  background-color: #FDF4DA;
   display: flex;
   justify-content: space-evenly;
+  padding: 5px;
+}
+
+nav ul li {
+  border: 10px solid;
+  border-color: #1B6D43;
+  background-color: #FDF4DA;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  filter: drop-shadow(0px 5px 20px #000000);
 }
 
 body #Splash {
@@ -38,11 +50,6 @@ body #Splash p {
 
 body #ContentArea {
   /*height: 550px; */
-}
-
-body #Buttons button {
-  width: 400px;
-  font-weight: 500;
 }
 
 code {

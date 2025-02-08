@@ -35,13 +35,6 @@ function Home() {
         />
         <button type="submit">Send</button>
       </form>
-
-      <section id="Buttons">
-        <button>Reels</button>
-        <button>Streaming</button>
-        <button>WebChat</button>
-      </section>
-
     </div>
   );
 }
