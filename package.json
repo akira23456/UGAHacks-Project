@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start:backend": "node backend/server.js",
+    "start:backend": "python3 manage.py runserver",
     "start:frontend": "react-scripts start",
     "start:both": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
   },
