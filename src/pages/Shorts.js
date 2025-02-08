@@ -5,6 +5,14 @@ function Shorts() {
     <div>
       <h1>Short Video Content</h1>
       <p>Coming soon: A place for short, vertical videos!</p>
+
+      <section id="Buttons">
+        <button>
+          <a href="./Reels.html">Reels</a>
+        </button>
+        <button>Streaming</button>
+        <button>WebChat</button>
+    </section>
     </div>
   );
 }

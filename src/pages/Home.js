@@ -16,7 +16,7 @@ function Home() {
     <div>
       <section id="Splash"> 
         Performing Heritage
-        <img src="Src"></img>
+        <img src="src/resources/images/logoph.png"></img>
       </section>
       <section id="ContentArea">
       </section>
@@ -44,6 +44,7 @@ function Home() {
         <button>Streaming</button>
         <button>WebChat</button>
       </section>
+
     </div>
   );
 }
