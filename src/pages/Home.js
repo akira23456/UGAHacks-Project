@@ -15,8 +15,7 @@ function Home() {
   return (
     <div>
       <section id="Splash"> 
-        Performing Heritage
-        <img src="src/resources/images/logoph.png"></img>
+        <p>Performing Heritage</p>
       </section>
       <section id="ContentArea">
       </section>
@@ -39,7 +38,7 @@ function Home() {
 
       <section id="Buttons">
         <button>
-          <a href="./Reels.html">Reels</a>
+          Reels
         </button>
         <button>Streaming</button>
         <button>WebChat</button>

@@ -7,12 +7,11 @@ function Shorts() {
       <p>Coming soon: A place for short, vertical videos!</p>
 
       <section id="Buttons">
-        <button>
-          <a href="./Reels.html">Reels</a>
-        </button>
+        <button>Reels</button>
         <button>Streaming</button>
         <button>WebChat</button>
-    </section>
+      </section>
+
     </div>
   );
 }
