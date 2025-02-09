@@ -3,6 +3,7 @@ Running instructions:
 Before running, please execute the following terminal commands in the project's directory:
 
 $ npm install
+
 $ npm install concurrently
 
 Running the page:
